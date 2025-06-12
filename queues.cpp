@@ -60,3 +60,13 @@ class Queues {
         void display(){
             int FRONT_position = FRONT;
             int REAR_position = REAR;
+
+            //Cek apakah antrian kosong
+            if (FRONT == -1){
+                cout << "Queue is emty\n";
+                return;
+            }
+
+            cout << "\nElements in the queue are ...\n";
+
+            
